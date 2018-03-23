@@ -3,8 +3,8 @@ package WordList::Password::10Million::Top100000;
 # DATE
 # VERSION
 
-use WordList;
-our @ISA = qw(WordList);
+use parent qw(WordList);
+#use parent qw(WordList::Role::Bloom);
 
 our $SORT = 'popularity';
 
