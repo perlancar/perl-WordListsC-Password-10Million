@@ -4,7 +4,6 @@ package WordList::Password::10Million::Top100000;
 # VERSION
 
 use parent qw(WordList);
-#use parent qw(WordList::Role::Bloom);
 
 our $SORT = 'popularity';
 
